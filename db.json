@@ -13,16 +13,6 @@
     "analyticsMeta": {
       "brandName": "maggie",
       "campaignName": "upsell_maggie_masala"
-    },
-    "viewMeta": {
-      "left": 8,
-      "right": 8,
-      "bottom": 140,
-      "top": 80,
-      "width": 126,
-      "aspectRatio": 0.5625,
-      "ctaBackgroundColor": "#FFFFFF",
-      "ctaTitleColor": "#262A33"
     }
   }
 }
