@@ -2,6 +2,7 @@
   "pip": {
     "campaignId": "campaign_id_in_string_3",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "repeatDuration": 120000,
     "action": {
       "actionType": "DEEPLINK",
       "actionMeta": {
