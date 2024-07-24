@@ -5,12 +5,12 @@
     "actionType": "DEEPLINK",
     "actionMeta": {
       "title": "Shop Now",
-      "deeplinkUrl": "https://www.zeptonow.com/Categories",
-    },
+      "deeplinkUrl": "https://www.zeptonow.com/Categories"
+    }
   },
   "analyticsMeta": {
     "brandName": "maggie",
-    "campaignName": "upsell_maggie_masala",
+    "campaignName": "upsell_maggie_masala"
   },
   "viewMeta": {
     "left": 8,
