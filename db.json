@@ -2,7 +2,7 @@
   "pip": {
     "campaignId": "campaign_id_in_string_3",
     "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
-    "repeatDuration": 60000,
+    "repeatDuration": 10000,
     "action": {
       "actionType": "DEEPLINK",
       "actionMeta": {
