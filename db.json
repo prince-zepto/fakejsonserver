@@ -7,12 +7,12 @@
       "actionType": "DEEPLINK",
       "actionMeta": {
         "title": "Shop Now",
-        "deeplinkUrl": "https://www.zeptonow.com/Categories"
+        "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=966dc8a0-8f21-420e-a897-8dd70b4228f6"
       }
     },
     "analyticsMeta": {
-      "brandName": "maggie",
-      "campaignName": "upsell_maggie_masala"
+      "brandName": "boat",
+      "campaignName": "boat_nirvana_ion_upsell"
     }
   }
 }
