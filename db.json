@@ -59,6 +59,7 @@
   },
   "campaign-data": [
     {
+      "campaignId": "campaign_1",
       "campaignType": "PIP_VIDEO",
       "status": "LIVE",
       "data": {
@@ -80,6 +81,7 @@
       }
     },
     {
+      "campaignId": "campaign_2",
       "campaignType": "PIP_VIDEO",
       "status": "LIVE",
       "data": {
