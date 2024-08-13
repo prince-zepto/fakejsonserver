@@ -16,46 +16,48 @@
         "campaignName": "boat_nirvana_ion_upsell"
       }
     },
-    "campaigns": [
-      {
-        "rules": {
-          "events": [
-            {
-              "eventName": "show_home_video_pip",
-              "eventCount": 1
-            }
-          ],
-          "triggerOnEvent": "show_home_video_pip",
-          "whitelistedScreens": [
-            "Home"
-          ],
-          "maxServeCount": 100,
-          "repeatDuration": 10000
+    "config": {
+      "campaigns": [
+        {
+          "rules": {
+            "events": [
+              {
+                "eventName": "show_home_video_pip",
+                "eventCount": 1
+              }
+            ],
+            "triggerOnEvent": "show_home_video_pip",
+            "whitelistedScreens": [
+              "Home"
+            ],
+            "maxServeCount": 100,
+            "repeatDuration": 10000
+          },
+          "campaignInfo": {
+            "campaignId": "campaign_1"
+          }
         },
-        "campaignInfo": {
-          "campaignId": "campaign_1"
+        {
+          "rules": {
+            "events": [
+              {
+                "eventName": "order_details_page_loaded",
+                "eventCount": 1
+              }
+            ],
+            "triggerOnEvent": "order_details_page_loaded",
+            "whitelistedScreens": [
+              "OrderTracking"
+            ],
+            "maxServeCount": 100,
+            "repeatDuration": 10000
+          },
+          "campaignInfo": {
+            "campaignId": "campaign_2"
+          }
         }
-      },
-      {
-        "rules": {
-          "events": [
-            {
-              "eventName": "order_details_page_loaded",
-              "eventCount": 1
-            }
-          ],
-          "triggerOnEvent": "order_details_page_loaded",
-          "whitelistedScreens": [
-            "OrderTracking"
-          ],
-          "maxServeCount": 100,
-          "repeatDuration": 10000
-        },
-        "campaignInfo": {
-          "campaignId": "campaign_2"
-        }
-      }
-    ],
+      ]
+    },
     "campaign": {
       "data": {
         "campaign_1": {
@@ -106,7 +108,7 @@
   "prod": {
     "pip": {
       "campaignId": "campaign_id_in_string_3",
-      "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
+      "videoUrl": "inventory/banner/a57fb93c-09b1-4460-812f-8ded633488c9-b1e3e215-aef9-4760-a96b-ba887806c3d0.mp4",
       "repeatDuration": 10000,
       "action": {
         "actionType": "DEEPLINK",
@@ -116,50 +118,52 @@
         }
       },
       "analyticsMeta": {
-        "brandName": "boat",
-        "campaignName": "boat_nirvana_ion_upsell"
+        "brandName": "zepto",
+        "campaignName": "zepto_pass"
       }
     },
-    "campaigns": [
-      {
-        "rules": {
-          "events": [
-            {
-              "eventName": "show_home_video_pip",
-              "eventCount": 1
-            }
-          ],
-          "triggerOnEvent": "show_home_video_pip",
-          "whitelistedScreens": [
-            "Home"
-          ],
-          "maxServeCount": 100,
-          "repeatDuration": 10000
+    "config": {
+      "campaigns": [
+        {
+          "rules": {
+            "events": [
+              {
+                "eventName": "show_home_video_pip",
+                "eventCount": 1
+              }
+            ],
+            "triggerOnEvent": "show_home_video_pip",
+            "whitelistedScreens": [
+              "Home"
+            ],
+            "maxServeCount": 100,
+            "repeatDuration": 10000
+          },
+          "campaignInfo": {
+            "campaignId": "campaign_1"
+          }
         },
-        "campaignInfo": {
-          "campaignId": "campaign_1"
+        {
+          "rules": {
+            "events": [
+              {
+                "eventName": "order_details_page_loaded",
+                "eventCount": 1
+              }
+            ],
+            "triggerOnEvent": "order_details_page_loaded",
+            "whitelistedScreens": [
+              "OrderTracking"
+            ],
+            "maxServeCount": 100,
+            "repeatDuration": 10000
+          },
+          "campaignInfo": {
+            "campaignId": "campaign_2"
+          }
         }
-      },
-      {
-        "rules": {
-          "events": [
-            {
-              "eventName": "order_details_page_loaded",
-              "eventCount": 1
-            }
-          ],
-          "triggerOnEvent": "order_details_page_loaded",
-          "whitelistedScreens": [
-            "OrderTracking"
-          ],
-          "maxServeCount": 100,
-          "repeatDuration": 10000
-        },
-        "campaignInfo": {
-          "campaignId": "campaign_2"
-        }
-      }
-    ],
+      ]
+    },
     "campaign": {
       "data": {
         "campaign_1": {
@@ -177,8 +181,8 @@
               }
             },
             "analyticsMeta": {
-              "brand_name": "boat",
-              "campaign_name": "nirvana_ion",
+              "brand_name": "zepto",
+              "campaign_name": "zepto_pass",
               "ucl_id": "campaign_1_ucl_id"
             }
           }
@@ -198,8 +202,8 @@
               }
             },
             "analyticsMeta": {
-              "brand_name": "boat",
-              "campaign_name": "nirvana_ion",
+              "brand_name": "zepto",
+              "campaign_name": "zepto_pass",
               "ucl_id": "campaign_2_ucl_id"
             }
           }
