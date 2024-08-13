@@ -1,18 +1,210 @@
 {
-  "pip": {
-    "campaignId": "campaign_id_in_string_3",
-    "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
-    "repeatDuration": 10000,
-    "action": {
-      "actionType": "DEEPLINK",
-      "actionMeta": {
-        "title": "Shop Now",
-        "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=966dc8a0-8f21-420e-a897-8dd70b4228f6"
+  "qa": {
+    "pip": {
+      "campaignId": "campaign_id_in_string_3",
+      "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
+      "repeatDuration": 10000,
+      "action": {
+        "actionType": "DEEPLINK",
+        "actionMeta": {
+          "title": "Shop Now",
+          "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=966dc8a0-8f21-420e-a897-8dd70b4228f6"
+        }
+      },
+      "analyticsMeta": {
+        "brandName": "boat",
+        "campaignName": "boat_nirvana_ion_upsell"
       }
     },
-    "analyticsMeta": {
-      "brandName": "boat",
-      "campaignName": "boat_nirvana_ion_upsell"
+    "campaigns": [
+      {
+        "rules": {
+          "events": [
+            {
+              "eventName": "show_home_video_pip",
+              "eventCount": 1
+            }
+          ],
+          "triggerOnEvent": "order_details_page_loaded",
+          "maxServeCount": 100,
+          "repeatDuration": 10000
+        },
+        "campaignInfo": {
+          "campaignId": "campaign_1"
+        }
+      },
+      {
+        "rules": {
+          "events": [
+            {
+              "eventName": "order_details_page_loaded",
+              "eventParams": [
+                {
+                  "paramName": "order_status",
+                  "paramValue": "PLACED"
+                }
+              ],
+              "eventCount": 1
+            }
+          ],
+          "triggerOnEvent": "order_details_page_loaded",
+          "maxServeCount": 100,
+          "repeatDuration": 10000
+        },
+        "campaignInfo": {
+          "campaignId": "campaign_2"
+        }
+      }
+    ],
+    "campaign": {
+      "data": {
+        "campaign_1": {
+          "campaignType": "PIP_VIDEO",
+          "status": "LIVE",
+          "data": {
+            "campaignId": "campaign_1",
+            "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
+            "repeatDuration": 10000,
+            "action": {
+              "actionType": "DEEPLINK",
+              "actionMeta": {
+                "title": "Shop Now",
+                "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=5736ad99-f589-4d58-a24b-a12222320a37"
+              }
+            },
+            "analyticsMeta": {
+              "brand_name": "boat",
+              "campaign_name": "nirvana_ion",
+              "ucl_id": "campaign_1_ucl_id"
+            }
+          }
+        },
+        "campaign_2": {
+          "campaignType": "PIP_VIDEO",
+          "status": "LIVE",
+          "data": {
+            "campaignId": "campaign_2",
+            "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
+            "repeatDuration": 10000,
+            "action": {
+              "actionType": "DEEPLINK",
+              "actionMeta": {
+                "title": "Shop Now",
+                "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=5736ad99-f589-4d58-a24b-a12222320a37"
+              }
+            },
+            "analyticsMeta": {
+              "brand_name": "boat",
+              "campaign_name": "nirvana_ion",
+              "ucl_id": "campaign_2_ucl_id"
+            }
+          }
+        }
+      }
+    }
+  },
+  "prod": {
+    "pip": {
+      "campaignId": "campaign_id_in_string_3",
+      "videoUrl": "inventory/banner/5370ae26-3a07-4892-a0d0-5b199b69a5c9-battery_nirvana_ion.mp4",
+      "repeatDuration": 10000,
+      "action": {
+        "actionType": "DEEPLINK",
+        "actionMeta": {
+          "title": "Shop Now",
+          "deeplinkUrl": "https://www.zeptonow.com/Categories?categoryId=966dc8a0-8f21-420e-a897-8dd70b4228f6"
+        }
+      },
+      "analyticsMeta": {
+        "brandName": "boat",
+        "campaignName": "boat_nirvana_ion_upsell"
+      }
+    },
+    "campaigns": [
+      {
+        "rules": {
+          "events": [
+            {
+              "eventName": "show_home_video_pip",
+              "eventCount": 1
+            }
+          ],
+          "triggerOnEvent": "order_details_page_loaded",
+          "maxServeCount": 100,
+          "repeatDuration": 10000
+        },
+        "campaignInfo": {
+          "campaignId": "campaign_1"
+        }
+      },
+      {
+        "rules": {
+          "events": [
+            {
+              "eventName": "order_details_page_loaded",
+              "eventParams": [
+                {
+                  "paramName": "order_status",
+                  "paramValue": "PLACED"
+                }
+              ],
+              "eventCount": 1
+            }
+          ],
+          "triggerOnEvent": "order_details_page_loaded",
+          "maxServeCount": 100,
+          "repeatDuration": 10000
+        },
+        "campaignInfo": {
+          "campaignId": "campaign_2"
+        }
+      }
+    ],
+    "campaign": {
+      "data": {
+        "campaign_1": {
+          "campaignType": "PIP_VIDEO",
+          "status": "LIVE",
+          "data": {
+            "campaignId": "campaign_1",
+            "videoUrl": "inventory/banner/a57fb93c-09b1-4460-812f-8ded633488c9-b1e3e215-aef9-4760-a96b-ba887806c3d0.mp4",
+            "repeatDuration": 10000,
+            "action": {
+              "actionType": "DEEPLINK",
+              "actionMeta": {
+                "title": "Shop Now",
+                "deeplinkUrl": "https://www.zeptonow.com/ZeptoPass"
+              }
+            },
+            "analyticsMeta": {
+              "brand_name": "boat",
+              "campaign_name": "nirvana_ion",
+              "ucl_id": "campaign_1_ucl_id"
+            }
+          }
+        },
+        "campaign_2": {
+          "campaignType": "PIP_VIDEO",
+          "status": "LIVE",
+          "data": {
+            "campaignId": "campaign_2",
+            "videoUrl": "inventory/banner/a57fb93c-09b1-4460-812f-8ded633488c9-b1e3e215-aef9-4760-a96b-ba887806c3d0.mp4",
+            "repeatDuration": 10000,
+            "action": {
+              "actionType": "DEEPLINK",
+              "actionMeta": {
+                "title": "Shop Now",
+                "deeplinkUrl": "https://www.zeptonow.com/ZeptoPass"
+              }
+            },
+            "analyticsMeta": {
+              "brand_name": "boat",
+              "campaign_name": "nirvana_ion",
+              "ucl_id": "campaign_2_ucl_id"
+            }
+          }
+        }
+      }
     }
   }
 }
