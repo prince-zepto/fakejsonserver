@@ -25,7 +25,10 @@
               "eventCount": 1
             }
           ],
-          "triggerOnEvent": "order_details_page_loaded",
+          "triggerOnEvent": "show_home_video_pip",
+          "whitelistedScreens": [
+            "Home"
+          ],
           "maxServeCount": 100,
           "repeatDuration": 10000
         },
@@ -38,16 +41,13 @@
           "events": [
             {
               "eventName": "order_details_page_loaded",
-              "eventParams": [
-                {
-                  "paramName": "order_status",
-                  "paramValue": "PLACED"
-                }
-              ],
               "eventCount": 1
             }
           ],
           "triggerOnEvent": "order_details_page_loaded",
+          "whitelistedScreens": [
+            "OrderTracking"
+          ],
           "maxServeCount": 100,
           "repeatDuration": 10000
         },
@@ -129,7 +129,10 @@
               "eventCount": 1
             }
           ],
-          "triggerOnEvent": "order_details_page_loaded",
+          "triggerOnEvent": "show_home_video_pip",
+          "whitelistedScreens": [
+            "Home"
+          ],
           "maxServeCount": 100,
           "repeatDuration": 10000
         },
@@ -142,16 +145,13 @@
           "events": [
             {
               "eventName": "order_details_page_loaded",
-              "eventParams": [
-                {
-                  "paramName": "order_status",
-                  "paramValue": "PLACED"
-                }
-              ],
               "eventCount": 1
             }
           ],
           "triggerOnEvent": "order_details_page_loaded",
+          "whitelistedScreens": [
+            "OrderTracking"
+          ],
           "maxServeCount": 100,
           "repeatDuration": 10000
         },
